@@ -117,7 +117,7 @@ in prediction accuracy by 0.199%. The L2 penalty, or Ridge, did not show a signi
 in accuracy from Lasso, with a mean classification error of 7.952%. In order to increase the model complexity, the Random Forest models were experimented, by setting a maximum tree depth of 10 and iterating through different numbers of estimators to
 determine the optimal value. Specifically, the values of 10, 50, 100, 150, and 200 were tried.
 
-# Final Model
+## Final Model
 Among all the models we tried, the Random Forest model with 150 trees performed the best. We
 used the same set of predictors as the previous models. The classification error of this model was
 6.56%, showing an improvement of 1.391% compared to the previous model.
